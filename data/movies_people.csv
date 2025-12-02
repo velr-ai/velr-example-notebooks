@@ -1,0 +1,12 @@
+key,name,born,birthplace,is_actor,is_director,is_writer
+keanu,Keanu Reeves,1964,"Beirut, Lebanon",true,false,false
+moss,Carrie-Anne Moss,1967,"Burnaby, Canada",true,false,false
+fish,Laurence Fishburne,1961,"Augusta, USA",true,false,false
+weaving,Hugo Weaving,1960,"Ibadan, Nigeria",true,false,false
+nolan,Christopher Nolan,1970,"London, UK",false,true,false
+leo,Leonardo DiCaprio,1974,"Los Angeles, USA",true,false,false
+jgl,Joseph Gordon-Levitt,1981,"Los Angeles, USA",true,false,false
+elliot,Elliot Page,1987,"Halifax, Canada",true,false,false
+hardy,Tom Hardy,1977,"London, UK",true,false,false
+lana,Lana Wachowski,1965,,false,true,true
+lilly,Lilly Wachowski,1967,,false,true,true

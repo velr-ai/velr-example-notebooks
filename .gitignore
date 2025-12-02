@@ -1,0 +1,66 @@
+# -------- OS cruft --------
+.DS_Store
+Thumbs.db
+
+# -------- Editor / IDE --------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.dylib
+
+# -------- DB -----------
+# Velr databases + SQLite sidecars
+*.velr
+*.velr-wal
+*.velr-shm
+*.velr-journal
+
+# -------- Rust workspace --------
+# Build output (workspace root target is shared by all crates)
+target/
+**/*.rs.bk
+
+# Keep Cargo.lock at the repo root (recommended for workspaces with a CLI)
+# (do NOT ignore Cargo.lock)
+
+# -------- Python (velrpy) --------
+# Virtual envs
+venv/
+.venv/
+
+# Byte-compiled / caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Packaging / build artifacts
+build/
+dist/
+wheelhouse/
+*.egg-info/
+*.egg
+
+# Local env files
+.env
+.env.*
+
+
+# -------- Logs / misc --------
+*.log
+
+# -------- Project-specific --------
+# CLI history file (if you create one next to the binary)
+history.txt
+
+wheeltest/
+.pybuild/
+python/velrpy/dist/
+python/velrpy/build/
+python/velrpy/src/velrpy.egg-info/
+**/__pycache__/
+.venv/

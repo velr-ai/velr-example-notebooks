@@ -1,0 +1,5 @@
+key,title,released,imdb_id,runtime,genre1,genre2,is_scifi,is_action,is_thriller,is_heist,is_superhero
+matrix,The Matrix,1999,tt0133093,136,Sci-Fi,Action,true,true,false,false,false
+memento,Memento,2000,tt0209144,113,Thriller,Mystery,false,false,true,false,false
+inception,Inception,2010,tt1375666,148,Sci-Fi,Heist,true,false,false,true,false
+tdkr,The Dark Knight Rises,2012,tt1345836,164,Action,Superhero,false,true,false,false,true
